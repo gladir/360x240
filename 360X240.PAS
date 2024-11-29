@@ -180,7 +180,7 @@ Procedure SetMode360x240c256;Begin
   DW 08A05h    { Fin de retour de balyage horizontal }
   DW 00D06h    { Total vertical }
   DW 03E07h    { Bit 8 et 9 compl‚mentaires }
-  DW 04009h    { Hauteur d'une cellule }
+  DW 04109h    { Hauteur d'une cellule }
   DW 0EA10h    { Ligne de d‚clenchement du retour vertical de balayage }
   DW 0AC11h    { Ligne o— s'arrˆte le retour de balayage vertical et bit de protection }
   DW 0DF12h    { DerniŠre ligne de balayage affich‚e }
